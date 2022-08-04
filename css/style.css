@@ -71,15 +71,25 @@ span.female {
 
 path {
 	fill: none;
-	stroke: red;
-	stroke-width: 15px;
-	stroke-linecap: round;
-	mix-blend-mode: multiply;
+}
+
+path.domain {
+	stroke-width: 3px;
 }
 
 path.male {
 	stroke: var(--male);
+	stroke-width: 15px;
+	stroke-linecap: round;
+	mix-blend-mode: multiply;
 }
 path.female {
 	stroke: var(--female);
+	stroke-width: 15px;
+	stroke-linecap: round;
+	mix-blend-mode: multiply;
+}
+text {
+	font-family: Fredoka One, Comic Sans;
+	font-size: 12px;
 }
