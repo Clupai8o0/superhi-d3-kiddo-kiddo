@@ -13,7 +13,9 @@ const dateScale = d3.scaleLinear().domain([1880, 2010]).range([80, 915]);
 const line = d3
 	.line()
 	.x((_, i) => dateScale(1880 + 10 * i))
-	.y((d) => rankScale(d));
+	.y((d) => rankScale(d))
+	.defined((d) => d !== 0)
+	.curve(d3.curveCardinal.tension(0.5));
 
 function search(name = "") {
 	let results = data.filter((d) => d.name.toLowerCase() === name.toLowerCase());
@@ -24,6 +26,7 @@ function search(name = "") {
 		lines
 			.enter()
 			.append("path")
+			.attr("class", (d) => d.sex)
 			.attr("d", (d) => line(d.rank));
 	} else alert(`No results for ${name}`);
 }

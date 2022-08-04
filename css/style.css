@@ -72,4 +72,14 @@ span.female {
 path {
 	fill: none;
 	stroke: red;
+	stroke-width: 15px;
+	stroke-linecap: round;
+	mix-blend-mode: multiply;
+}
+
+path.male {
+	stroke: var(--male);
+}
+path.female {
+	stroke: var(--female);
 }
