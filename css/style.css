@@ -43,6 +43,28 @@ input {
 	color: var(--main-color);
 }
 
-input::placeholder{
+input::placeholder {
 	color: var(--placeholder);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px;
+}
+
+div.key span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	margin: 0 5px 0 16px;
+	vertical-align: baseline;
+}
+
+span.male {
+	background: var(--male);
+}
+span.female {
+	background: var(--female);
 }
