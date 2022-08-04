@@ -28,6 +28,7 @@ function search(name = "") {
 			.append("path")
 			.attr("class", (d) => d.sex)
 			.attr("d", (d) => line(d.rank));
+		lines.exit().remove();
 	} else alert(`No results for ${name}`);
 }
 
