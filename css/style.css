@@ -68,3 +68,8 @@ span.male {
 span.female {
 	background: var(--female);
 }
+
+path {
+	fill: none;
+	stroke: red;
+}
