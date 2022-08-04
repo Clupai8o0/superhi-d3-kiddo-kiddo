@@ -1,0 +1,21 @@
+Typography:
+Fredoka One
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+Default size: 18px at 1.5 line height
+
+Sizes:
+Page width: 960px
+Line thickness: 15px rounded
+
+Colors:
+Background: #f4f1e9
+Main color: #746f61
+Placeholder: #b4b0a4
+Male: #ff8a00
+Female: #00d400
+
+Copy:
+Still unsure on a name for your little one?
+Search below our popularity graph.

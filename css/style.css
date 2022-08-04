@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+:root {
+	--background: #f4f1e9;
+	--main-color: #746f61;
+	--placeholder: #b4b0a4;
+	--male: #ff8a00;
+	--female: #00d400;
+}

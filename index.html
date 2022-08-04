@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiddo Kiddo</title>
+    <link rel="stylesheet" href="css/_base.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1><img src="assets/kiddo-logo.svg" alt="kiddo kiddo logo"></h1>
+    </header>
+
+    <form>
+      <h2>Still unsure on a name for your little one?</h2>
+      <h3>Search below our popularity graph.</h3>
+      <input type="text" name="name" id="name" placeholder="Enter a name e.g. Richard" autocomplete="off">
+    </form>
+
+    <section>
+      <nav>
+        <div>
+          Results for <span class="name">Kendall</span>
+        </div>
+
+        <div>
+          Male Female
+        </div>
+      </nav>
+
+      <svg></svg>
+    </section>
+
+    <script src="js/d3.min.js"></script>
+    <script src="js/data.min.js"></script>
+    <script src="js/kiddo.js"></script>
+  </body>
+
+</html>
