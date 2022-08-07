@@ -7,7 +7,7 @@ svg.attr("width", 960).attr("height", 540);
 
 const pathsGroup = svg.append("g").attr("class", "paths");
 
-const rankScale = d3.scaleLinear().domain([1, 1000]).range([20, 500]);
+const rankScale = d3.scalePow().exponent(0.25).domain([1, 1000]).range([20, 500]);
 const dateScale = d3.scaleLinear().domain([1880, 2010]).range([80, 915]);
 
 const rankAxis = d3
